@@ -108,6 +108,10 @@
             .indented {
                 text-indent: 20px; 
             }
+
+            .video-container {
+                text-align: center; /* Centers the video horizontally */
+            }
         </style>
     </head>
     <body>
@@ -141,12 +145,28 @@
             </section>
             <section id="projects">
                 <h1>Projects</h1>
-                <section id="samantha-project">
-                    <h1>Samantha Project</h1>
-                    <img src="mars.jpg" alt="Samantha Project Screenshot" width="300" height="200">
+                <section id="vr-video">
+                    <h1>360 VR Video</h1>
+                    <img src="camera.png" alt="360 VR Video Screenshot" width="300" height="200">
                     <p class="indented">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        This college project was about using a 360 video camera, editing it into a 360 format, and then uploading it over Unity. On top of this, we had to use Unity's VR to experience it in the environment.
+                        This allowed our group to experience not only a 360 video but also use the VR headset to look at the video in the skybox of the game. We had to make the video interactive by adding buttons.
+                        Our group accomplished this by using Unity's UI system world space canvas to create buttons that would play, pause, toggle the audio on and off, as well as go to the next or previous video.
+                        We had to have some sort of topic for our project, and we decided to shoot videos of popular Boise tourist spots such as the Boise River, Boise Zoo, and the Idaho State Capitol Building.
                     </p>
+                    <br>
+                    <p>
+                        My role in this project was to figure out how to add interactivity, such as player movement, the buttons, and adding functionality to the buttons. I learned how to link Meta Quest headsets to Unity and how to set up teleportation to move around the scene.
+                        I also learned to make objects such as a cube interactable using the Meta Quest controller. The most difficult part was to use buttons in the VR environment, as I had to figure out how to make the buttons appear in the environment instead of on the player camera and how to make them clickable with the controller.
+                        The things I learned helped me understand the base foundations of Unity VR and the different tools that come with it, such as being able to use a ladder in VR. Our group also had to learn how to work with the headset's unique rendering system, which made the skybox often appear pink or blue, and the inconsistency of the bug was quite the challenge to overcome.
+                        This was a great project where we were able to divide the work evenly across all members of the group.
+                    </p>
+                    <div class="video-container">
+                        <video class="embed-responsive-item" controls width="300" height="200">
+                            <source src="VR Project Portfolio.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </section>
                 <hr>
                 <section id="rock-paper-scissors">
